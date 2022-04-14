@@ -1,42 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Bag End B&B</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet">
+  <title>Bag End B&B</title>
 </head>
+
 <body>
-    
-    
-    
-    
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="bagend.jpg" class="d-block w-100" alt="A Hobbit Hole">
-          </div>
-          <div class="carousel-item">
-            <img src="bagend2.jpg" class="d-block w-100" alt="another hobbit hole">
-          </div>
-          <div class="carousel-item">
-            <img src="bag.jpgDM" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="">Next</span>
-        </button>
+ 
+  <nav class="navbar navbar-expand-lg navbar-green bg-green">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Bag End</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="bagend.jpg" class="d-block w-100" alt="a photo of bag end" style="max-height: 80em">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hobbiton</h5>
+          <p>A queit peaceful sett of land in the New Zealand country side</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="bagend2.jpg" class="d-block w-100" alt="a photo of bag end" style="max-height: 80em">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="text-black">Bag End</h4>
+          <h6 class="text-black">The most well known and well respected hobbit hole in the Shire</h6>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="bag.jpg" class="d-block w-100" alt="looking into bag end" style="max-height: 80em">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="card1.jpg" class="card-img-top" alt="man in front of hobit hole">
+      <div class="card-body">
+        <h5 class="card-title">Food</h5>
+        <p class="card-text">Hobbits love food and and have many meals a day. Here at Bag End no one ever leaves hungry, for while hobbits are small their stomachs are large.</p>
+        <a href="https://www.webstaurantstore.com/blog/1786/hobbit-meals-to-celebrate-hobbit-day.html" class="btn btn-primary">Hobbit Meal Times</a>
+      </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="card2.jpg" class="card-img-top" alt="the shire">
+      <div class="card-body">
+        <h5 class="card-title">Activities</h5>
+        <p class="card-text">There are many fun outdoor activities within walking distance of the lovely Bag End. The beautiful country side is always searching for another adventurer to turn up.</p>
+        <a href="https://www.tourism.net.nz/region/waikato/hobbiton/attractions-and-activities" class="btn btn-primary">Activities in the Shire</a>
+      </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="card" style="width: 35rem;">
+      <img src="hobbits.jpg" class="card-img-top" alt="hobbits playing music">
+      <div class="card-body">
+        <h5 class="card-title">Music and relaxation</h5>
+        <p class="card-text">If food and adventure isn't your speed, have no fear the hobbits are a generally relaxed folk who love to tell tales, soak up the sun, and listen to hearty music.</p>
+        <a href="https://www.youtube.com/watch?v=fhbnKNy8Tto" class="btn btn-primary">Hobbit Music</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/5JrKThVnjso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

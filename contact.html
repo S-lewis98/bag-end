@@ -5,10 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
 </head>
 <body>
-    
-</body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Bag End</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <div class="container-fluid">
+            <img src="header.webp" alt="bag end" width="100%" height="700px">
+            <div class="row">
+                <h1 class="display-1"> Contact Us</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form>
+
+                        <div class="mb-3">
+                            <label for="Name" class="form-label">Name</label>
+                            <input type="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="nameHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="number" class="form-label">Phone Number</label>
+                            <input type="phonenumber" class="form-control" id="number">
+                        </div>
+                        <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Textarea</label>
+                            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter a message in the textarea.
+                            </div>
+                        </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.4942187425845!2d175.68075151532042!3d-37.87212332974187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6dab6237e84a77%3A0x24ff7cd6a8f521a6!2sHobbiton%E2%84%A2%20Movie%20Set%20Tours!5e0!3m2!1sen!2sus!4v1649912210169!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>Bag End Bed and Breakfast 501 Buckland Road, Matamata 3472, New Zealand </p>
+        </footer>
+    </body>
 </html>
